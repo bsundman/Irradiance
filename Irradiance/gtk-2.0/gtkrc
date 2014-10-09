@@ -121,11 +121,11 @@ style "default" {
 
 style "dark"
 {
-	bg[NORMAL]   = "#dfd7cf"
-	bg[PRELIGHT] = shade (1.05, "#dfd7cf")
+	bg[NORMAL]   = "#dcd7d2"
+	bg[PRELIGHT] = shade (1.05, "#dcd7d2")
 	bg[SELECTED] = @selected_bg_color
-	bg[ACTIVE]   = shade (0.95, "#dfd7cf")
-	bg[INSENSITIVE]   = "#dfd7cf"
+	bg[ACTIVE]   = shade (0.95, "#dcd7d2")
+	bg[INSENSITIVE]   = "#dcd7d2"
 }
 
 style "wide" {
