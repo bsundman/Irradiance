@@ -35,8 +35,7 @@ UnityDecoration.top {
                                      to (@dark_bg_color));
 
     color: shade (@dark_bg_color, 0.4);
-    text-shadow: 1px 0 shade (@dark_bg_color, 1.06), -1px 0 shade (@dark_bg_color, 1.06),
-                 0 1px shade (@dark_bg_color, 1.06), 0 -1px shade (@dark_bg_color, 1.06);
+    text-shadow: none;
 }
 
 UnityDecoration.top:backdrop {
@@ -51,8 +50,7 @@ UnityDecoration.top:backdrop {
                 inset 0 1px shade (#edebe6, 0.97), inset 0 0 transparent;
 
     color: #a39e9a;
-    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.08), -1px 0 1px shade (@dark_bg_color, 1.08),
-                 0 1px 1px shade (@dark_bg_color, 1.08), 0 -1px 1px shade (@dark_bg_color, 1.08);
+    text-shadow: none;
 }
 
 UnityDecoration.left,
