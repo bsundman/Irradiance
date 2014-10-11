@@ -10,6 +10,7 @@ Changelog
 October 10, 2014
 ---------------
 Added Irradiance-X
+Fixed Metacity for CentOS and Fedora (and possibly others)
 
 October 9, 2014
 ---------------
