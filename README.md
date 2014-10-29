@@ -7,6 +7,10 @@ A Unity theme inspired by OSX Yosemite based on Radiance.
 Changelog
 =========
 
+October 28, 2014
+----------------------
+Updated panel for more streamlined look. (thanks David Guerra)
+
 October 10, 2014
 ---------------
 Added Irradiance-X
