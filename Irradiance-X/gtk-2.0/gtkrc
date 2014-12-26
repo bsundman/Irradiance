@@ -59,7 +59,7 @@ style "default" {
 
 	GtkProgressBar::min-horizontal-bar-height = 14
 	GtkProgressBar::min-vertical-bar-width = 14
-	
+
 	GtkImage::x-ayatana-indicator-dynamic = 1
 	GtkMenuBar::window-dragging = 1
 
@@ -72,7 +72,7 @@ style "default" {
 	bg[NORMAL]        = @bg_color
 	bg[PRELIGHT]      = shade (1.02, @bg_color)
 	bg[SELECTED]      = @selected_bg_color
-	bg[INSENSITIVE]   = shade (0.95, @bg_color)
+	bg[INSENSITIVE]   = "#f6f6f6"
 	bg[ACTIVE]        = shade (0.9, @bg_color)
 
 	fg[NORMAL]        = @fg_color
@@ -90,7 +90,7 @@ style "default" {
 	base[NORMAL]      = @base_color
 	base[PRELIGHT]    = shade (0.98, @bg_color)
 	base[SELECTED]    = @selected_bg_color
-	base[INSENSITIVE] = shade (0.97, @bg_color)
+	base[INSENSITIVE] = "#f6f6f6"
 	base[ACTIVE]      = shade (0.94, @bg_color)
 
 	engine "murrine" {
@@ -126,6 +126,11 @@ style "dark"
 	bg[SELECTED] = @selected_bg_color
 	bg[ACTIVE]   = shade (0.95, "#f6f6f6")
 	bg[INSENSITIVE]   = "#f6f6f6"
+
+	engine "murrine" {
+
+}
+
 }
 
 style "wide" {
@@ -252,7 +257,7 @@ style "notebook_bg" {
 style "notebook" {
 	xthickness = 2
 	ythickness = 2
-	
+
 	engine "murrine" {
 		roundness = 3
 		contrast = 0.8
@@ -271,7 +276,7 @@ style "statusbar" {
 style "comboboxentry" = "notebook_button" {
 	xthickness = 3
 	ythickness = 3
-	
+
 	engine "murrine" {
 		textstyle = 1
 		glowstyle = 5

@@ -1954,11 +1954,11 @@ GtkTextView {
 .primary-toolbar.toolbar,
 .menubar.toolbar,
 .header-bar {
-    -GtkWidget-window-dragging: true;
+  -GtkWidget-window-dragging: true;
 
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.08)),
-                                     to (shade (@dark_bg_color, 1.0)));
+  background-image: -gtk-gradient (linear, left top, left bottom,
+    from (shade (@dark_bg_color, 1.0)),
+    to (shade (@dark_bg_color, 1.4)));
     border-bottom-color: shade (@dark_bg_color, 1.1);
     border-top-color: @dark_bg_color;
     border-style: solid;
@@ -1976,15 +1976,13 @@ GtkTextView {
 .menubar.toolbar .toolbar:backdrop,
 .menubar.toolbar.toolbar:backdrop,
 .header-bar:backdrop {
-    border: 1px solid rgba (100, 100, 100, 0.2);
-    border-width: 0 1px 0 1px;
-    background-image: none;
-    background-color: #f6f6f6;
-    box-shadow: none;
-    border-top-color: @dark_bg_color;
-    border-bottom-color: shade (@dark_bg_color, 0.9);
+  background-image: none;
+  background-color: #f6f6f6;
+  box-shadow: none;
+  border-top-color: @dark_bg_color;
+  border-bottom-color: shade (@dark_bg_color, 0.9);
 
-    color: @backdrop_dark_fg_color;
+  color: @backdrop_dark_fg_color;
 }
 
 .primary-toolbar :insensitive,
