@@ -6,7 +6,7 @@ style "ff-default" {
 	GtkCheckButton::indicator-size = 14
 
 	engine "murrine" {
-		reliefstyle = 0
+		reliefstyle = 4
 	}
 }
 

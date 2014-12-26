@@ -72,7 +72,7 @@ style "default" {
 	bg[NORMAL]        = @bg_color
 	bg[PRELIGHT]      = shade (1.02, @bg_color)
 	bg[SELECTED]      = @selected_bg_color
-	bg[INSENSITIVE]   = "#f6f6f6"
+	bg[INSENSITIVE]   = shade (0.95, @bg_color)
 	bg[ACTIVE]        = shade (0.9, @bg_color)
 
 	fg[NORMAL]        = @fg_color
@@ -90,7 +90,7 @@ style "default" {
 	base[NORMAL]      = @base_color
 	base[PRELIGHT]    = shade (0.98, @bg_color)
 	base[SELECTED]    = @selected_bg_color
-	base[INSENSITIVE] = "#f6f6f6"
+	base[INSENSITIVE] = shade (0.97, @bg_color)
 	base[ACTIVE]      = shade (0.94, @bg_color)
 
 	engine "murrine" {
@@ -122,15 +122,10 @@ style "default" {
 style "dark"
 {
 	bg[NORMAL]   = "#e7e7e7"
-	bg[PRELIGHT] = shade (1.05, "#f6f6f6")
+	bg[PRELIGHT] = shade (1.05, "#dfd7cf")
 	bg[SELECTED] = @selected_bg_color
-	bg[ACTIVE]   = shade (0.95, "#f6f6f6")
+	bg[ACTIVE]   = shade (0.95, "#dfd7cf")
 	bg[INSENSITIVE]   = "#f6f6f6"
-
-	engine "murrine" {
-
-}
-
 }
 
 style "wide" {
