@@ -90,6 +90,11 @@ Assistant GtkEventBox {
     background-color: @bg_color;
 }
 
+/* 14.04 Compatibility */
+GtkEventBox {
+    background-color: @bg_color;
+}
+
 /*********
  * arrow *
  *********/
