@@ -70,6 +70,11 @@
     outline-offset: 5px;
 }
 
+GtkWindow {
+    color: @fg_color;
+    background-color: @bg_color;
+}
+
 .background {
     color: @fg_color;
     background-color: @bg_color;
@@ -655,7 +660,8 @@ GtkIconView.content-view.check:selected {
 /****************
  * drawing area *
  ****************/
-/*
+/* comment this out to fix applications like shotwell (LP: #931630)
+
 GtkDrawingArea {
     background-color: transparent;
 }
@@ -1183,9 +1189,9 @@ GtkComboBox .menu .menuitem *:insensitive {
  * notebook *
  ************/
 .notebook {
-    background-color: @bg_color;
-    background-image: none;
-    background-clip: border-box;
+  background-color: @bg_color;
+  background-image: none;
+  background-clip: border-box;
 }
 .notebook tab.top { padding: 4px 6px 2px 6px; }
 .notebook tab.top:active { padding-bottom: 3px; }
