@@ -9,7 +9,7 @@ Changelog
 
 February 24, 2015
 ----------------------
-Made Irradiance-Grey the default Irradiance and deleted the others.  Updated to newer window controls and updated for Metacity.
+Made Irradiance-Grey the default and deleted the other.  No longer updating Irradiance-X and will eventually drop it.  Updated to newer window controls and Metacity.
 
 October 28, 2014
 ----------------------
