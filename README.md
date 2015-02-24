@@ -7,6 +7,10 @@ A Unity theme inspired by OSX Yosemite based on Radiance.
 Changelog
 =========
 
+February 24, 2015
+----------------------
+Made Irradiance-Grey the default Irradiance and deleted the others.  Updated to newer window controls and updated for Metacity.
+
 October 28, 2014
 ----------------------
 Updated panel for more streamlined look. (thanks David Guerra)
