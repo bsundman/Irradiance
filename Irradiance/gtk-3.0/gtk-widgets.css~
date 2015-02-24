@@ -1,6 +1,35 @@
 /* NOTES to contributors:
  * use 4 spaces intends, and keep code ALIGNED and ORDERED */
 
+/* Gnome 3 enhancements.  Larger border-radius radius for better antialiasing */
+.window-frame {
+    border-color: darker(@bg_color);
+    border-radius: 9px 9px 0 0;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0 2px 8px 3px alpha(black, 0.5);
+    margin: 10px;
+}
+.window-frame:backdrop {
+     box-shadow: 0 2px 5px 1px alpha(black, 0.5);
+}
+.window-frame.tiled {
+    border-radius: 0;
+    background-color: @bg_color;
+}
+
+.titlebar {
+    border-radius: 9px 9px 0px 0px;
+}
+
+.tiled .titlebar {
+    border-radius: 0;
+}
+
+.maximized .titlebar {
+    border-radius: 0;
+}
+
 /* default */
 * {
     -GtkArrow-arrow-scaling: 0.6;
@@ -70,6 +99,11 @@
     outline-offset: 5px;
 }
 
+GtkWindow {
+    color: @fg_color;
+    background-color: @bg_color;
+}
+
 .background {
     color: @fg_color;
     background-color: @bg_color;
@@ -87,6 +121,11 @@ GtkPaned {
  * overlay scrollbars are enabled.
  */
 Assistant GtkEventBox {
+    background-color: @bg_color;
+}
+
+/* 14.04 Compatibility */
+GtkEventBox {
     background-color: @bg_color;
 }
 
@@ -650,7 +689,8 @@ GtkIconView.content-view.check:selected {
 /****************
  * drawing area *
  ****************/
-/*
+/* comment this out to fix applications like shotwell (LP: #931630)
+
 GtkDrawingArea {
     background-color: transparent;
 }
@@ -1178,9 +1218,9 @@ GtkComboBox .menu .menuitem *:insensitive {
  * notebook *
  ************/
 .notebook {
-    background-color: @bg_color;
-    background-image: none;
-    background-clip: border-box;
+  background-color: @bg_color;
+  background-image: none;
+  background-clip: border-box;
 }
 .notebook tab.top { padding: 4px 6px 2px 6px; }
 .notebook tab.top:active { padding-bottom: 3px; }
@@ -1963,8 +2003,8 @@ GtkTextView {
     -GtkWidget-window-dragging: true;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.0)),
-                                     to (shade (@dark_bg_color, 1.4)));
+                                     from (shade (@dark_bg_color, 2)),
+                                     to (shade (@dark_bg_color, 2)));
     border-bottom-color: shade (@dark_bg_color, 1.1);
     border-top-color: @dark_bg_color;
     border-style: solid;

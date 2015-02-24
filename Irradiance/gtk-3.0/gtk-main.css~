@@ -1,7 +1,7 @@
 /*default color scheme */
-@define-color bg_color #f2f1f0;
+@define-color bg_color #e4e4e4;
 @define-color fg_color #4c4c4c;
-@define-color base_color #ffffff;
+@define-color base_color #f9f9f9;
 @define-color text_color #3C3C3C;
 @define-color selected_bg_color #f07746;
 @define-color selected_fg_color #ffffff;
@@ -26,7 +26,7 @@
 @define-color notebook_button_bg_color shade (@bg_color, 1.02);
 @define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
 /* @define-color dark_bg_color #dfd7cf; */
-@define-color dark_bg_color rgb (218, 215, 212);
+@define-color dark_bg_color #d7d7d7;
 @define-color dark_fg_color @fg_color;
 
 @define-color backdrop_fg_color mix (@bg_color, @fg_color, 0.8);
