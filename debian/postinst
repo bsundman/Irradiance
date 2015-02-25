@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Irradiance installed successfully."
+sleep 2
+echo ""
+
