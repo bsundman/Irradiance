@@ -7,6 +7,10 @@ A Unity theme inspired by OSX Yosemite based on Radiance.
 Changelog
 =========
 
+February 25, 2015
+----------------------
+Changed default orange color to be blue, improved other colors.
+
 February 24, 2015
 ----------------------
 Made Irradiance-Grey the default and deleted the other.  If you like the old version, stick with 0.4 branch.  No longer updating Irradiance-X and will eventually drop it.  Updated to newer window controls and Metacity.
