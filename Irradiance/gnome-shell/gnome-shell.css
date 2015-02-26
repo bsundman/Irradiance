@@ -148,7 +148,7 @@ StScrollBar StButton#vhandle:active {
 
     -arrow-border-radius: 6px;
     color: #000 !important;
-    -arrow-background-color: rgba(233,233,233,0.9);
+    -arrow-background-color: rgba(233,233,233,0.95);
     -arrow-border-width: 1px;
     -arrow-border-color: rgba(210,210,210,0.9);
     -arrow-base: 18px;
@@ -504,7 +504,7 @@ StScrollBar StButton#vhandle:active {
 #panel {
     height: 1.86em;
     font-weight: normal;
-    background-color: rgba(233,233,233,0.9);
+    background-color: rgba(233,233,233,0.95);
     border-top-color: #666; /* we don't support non-uniform border-colors and
                                use the top border color for any border, so we
                                need to set it even if all we want is a bottom
