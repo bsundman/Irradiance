@@ -52,137 +52,137 @@
 <!-- window title -->
 
 <draw_ops name="draw_title_text_normal">
-  <title color="shade/#d7d7d7/1.06" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
-  <title color="shade/#d7d7d7/1.06" x="10" y="(((height - title_height) / 2) `max` 0)-1"/>
-  <title color="shade/#d7d7d7/1.06" x="9" y="(((height - title_height) / 2) `max` 0)"/>
-  <title color="shade/#d7d7d7/1.06" x="11" y="(((height - title_height) / 2) `max` 0)"/>
-  <title color="shade/#d7d7d7/0.4" x="10" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="shade/#e9e9e9/1.06" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
+  <title color="shade/#e9e9e9/1.06" x="10" y="(((height - title_height) / 2) `max` 0)-1"/>
+  <title color="shade/#e9e9e9/1.06" x="9" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="shade/#e9e9e9/1.06" x="11" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="shade/#e9e9e9/0.4" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
 <draw_ops name="draw_title_text_unfocused">
-  <title color="shade/#d7d7d7/1.08" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
+  <title color="shade/#e9e9e9/1.08" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
   <title color="#a39e9a" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
 <draw_ops name="draw_title">
   <!-- frame and gradient -->
-  <rectangle color="#d7d7d7" filled="false" x="0" y="0" width="width-1" height="top_height"/>
+  <rectangle color="#e9e9e9" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
-    <color value="shade/#d7d7d7/1.06" />
-    <color value="#d7d7d7" />
+    <color value="shade/#e9e9e9/1.06" />
+    <color value="#e9e9e9" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="shade/#d7d7d7/1.06" />
-    <color value="shade/#d7d7d7/1.06" />
-    <color value="shade/#d7d7d7/1.06" />
+    <color value="shade/#e9e9e9/1.06" />
+    <color value="shade/#e9e9e9/1.06" />
+    <color value="shade/#e9e9e9/1.06" />
   </gradient>
   <!-- left arch -->
   <!-- <arc color="shade/#edebe6/1.08" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
-  <arc color="#d7d7d7" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
-  <line color="#d7d7d7" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="#d7d7d7" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="#d7d7d7" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="#d7d7d7" x1="0" x2="1" y1="4" y2="4"/>
+  <arc color="#e9e9e9" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
+  <line color="#e9e9e9" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#e9e9e9" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#e9e9e9" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#e9e9e9" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
   <!-- <arc color="shade/#edebe6/1.08" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
-  <arc color="#d7d7d7" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
-  <line color="#d7d7d7" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="#d7d7d7" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="#d7d7d7" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="#d7d7d7" x1="width-2" x2="width" y1="4" y2="4"/>
+  <arc color="#e9e9e9" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
+  <line color="#e9e9e9" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#e9e9e9" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#e9e9e9" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#e9e9e9" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility">
   <include name="draw_title" />
-  <line color="#d7d7d7" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
+  <line color="#e9e9e9" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_unfocused">
   <!-- frame and gradient -->
-  <rectangle color="#d7d7d7" filled="false" x="0" y="0" width="width-1" height="top_height"/>
+  <rectangle color="#e9e9e9" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
-    <color value="#d7d7d7" />
-    <color value="#d7d7d7" />
+    <color value="#e9e9e9" />
+    <color value="#e9e9e9" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="#d7d7d7" />
-    <color value="#d7d7d7" />
-    <color value="#d7d7d7" />
+    <color value="#e9e9e9" />
+    <color value="#e9e9e9" />
+    <color value="#e9e9e9" />
   </gradient>
   <!-- left arch -->
   <!-- <arc color="shade/#edebe6/1.02" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
-  <arc color="shade/#d7d7d7/0.8" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
-  <line color="#d7d7d7" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="#d7d7d7" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="#d7d7d7" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="#d7d7d7" x1="0" x2="1" y1="4" y2="4"/>
+  <arc color="shade/#e9e9e9/0.8" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
+  <line color="#e9e9e9" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#e9e9e9" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#e9e9e9" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#e9e9e9" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
   <!-- <arc color="shade/#edebe6/1.02" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
-  <arc color="shade/#d7d7d7/0.8" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
-  <line color="#d7d7d7" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="#d7d7d7" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="#d7d7d7" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="#d7d7d7" x1="width-2" x2="width" y1="4" y2="4"/>
+  <arc color="shade/#e9e9e9/0.8" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
+  <line color="#e9e9e9" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#e9e9e9" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#e9e9e9" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#e9e9e9" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility_unfocused">
   <include name="draw_title_unfocused" />
-  <line color="#d7d7d7" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
+  <line color="#e9e9e9" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized">
   <!-- frame and gradient -->
-  <line color="#d7d7d7" x1="0" x2="width" y1="0" y2="0"/>
+  <line color="#e9e9e9" x1="0" x2="width" y1="0" y2="0"/>
   <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
-    <color value="shade/#d7d7d7/1" />
-    <color value="#d7d7d7" />
+    <color value="shade/#e9e9e9/1" />
+    <color value="#e9e9e9" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="shade/#d7d7d7/1" />
-    <color value="shade/#d7d7d7/1" />
-    <color value="shade/#d7d7d7/1" />
+    <color value="shade/#e9e9e9/1" />
+    <color value="shade/#e9e9e9/1" />
+    <color value="shade/#e9e9e9/1" />
   </gradient>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_unfocused">
   <!-- frame and gradient -->
-  <line color="#d7d7d7" x1="0" x2="width" y1="0" y2="0"/>
+  <line color="#e9e9e9" x1="0" x2="width" y1="0" y2="0"/>
   <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
-    <color value="#d7d7d7" />
-    <color value="#d7d7d7" />
+    <color value="#e9e9e9" />
+    <color value="#e9e9e9" />
   </gradient>
   <!-- top line -->
-  <line color="#d7d7d7" x1="0" x2="width" y1="1" y2="1"/>
+  <line color="#e9e9e9" x1="0" x2="width" y1="1" y2="1"/>
 </draw_ops>
 
 <!-- window Frames -->
 
 <draw_ops name="draw_frame">
-  <rectangle color="#d7d7d7" x="0" y="0" width="width" height="height" filled="true"/>
+  <rectangle color="#e9e9e9" x="0" y="0" width="width" height="height" filled="true"/>
   <gradient type="vertical" x="0" y="0" width="width" height="60">
-    <color value="#d7d7d7" />
-    <color value="#d7d7d7" />
-    <color value="#d7d7d7" />
+    <color value="#e9e9e9" />
+    <color value="#e9e9e9" />
+    <color value="#e9e9e9" />
   </gradient>
 </draw_ops>
 
 <draw_ops name="draw_frame_utility">
-  <rectangle color="#d7d7d7" x="0" y="0" width="width" height="height" filled="true"/>
+  <rectangle color="#e9e9e9" x="0" y="0" width="width" height="height" filled="true"/>
 </draw_ops>
 
 <draw_ops name="bottom_edge">
-  <line color="#d7d7d7" x1="0" x2="width" y1="height-1" y2="height-1"/>
+  <line color="#e9e9e9" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="border">
-  <line color="#d7d7d7" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
-  <line color="#d7d7d7" x1="width - 2" y1="1" x2="width - 2" y2="height - 2"/>
-  <line color="#d7d7d7" x1="1" y1="1" x2="width - 2" y2="1"/>
-  <line color="#d7d7d7" x1="1" y1="1" x2="1" y2="height - 2"/>
-  <rectangle color="#d7d7d7" filled="false" x="0" y="0" width="width - 1" height="height - 1"/>
+  <line color="#e9e9e9" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
+  <line color="#e9e9e9" x1="width - 2" y1="1" x2="width - 2" y2="height - 2"/>
+  <line color="#e9e9e9" x1="1" y1="1" x2="width - 2" y2="1"/>
+  <line color="#e9e9e9" x1="1" y1="1" x2="1" y2="height - 2"/>
+  <rectangle color="#e9e9e9" filled="false" x="0" y="0" width="width - 1" height="height - 1"/>
 </draw_ops>
 
 <!-- buttons -->
