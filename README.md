@@ -9,7 +9,7 @@ Changelog
 
 February 25, 2015
 ----------------------
-Changed default orange color to be blue, improved other colors, and added light gnome-shell theme.
+Changed default orange selected color to be blue (widgets to follow), improved other colors, and added light gnome-shell theme.
 
 February 24, 2015
 ----------------------
