@@ -102,20 +102,6 @@
 }
 
 /* primary-toolbar */
-.primary-toolbar,
-.primary-toolbar .toolbar,
-.primary-toolbar.toolbar,
-.menubar.toolbar,
-.header-bar {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.0)),
-                                     to (shade (@dark_bg_color, 0.95)));
-    border-bottom-color: shade (@dark_bg_color, 1.02);
-    border-top-color: shade (@dark_bg_color, 1.02);
-
-    text-shadow: 0 1px shade (@dark_bg_color, 1.1);
-}
-
 .primary-toolbar :insensitive,
 .menubar.toolbar :insensitive,
 .header-bar :insensitive {
