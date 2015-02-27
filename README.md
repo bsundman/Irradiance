@@ -7,6 +7,10 @@ A Unity theme inspired by OSX Yosemite based on Radiance.
 Changelog
 =========
 
+February 26, 2015
+----------------------
+Created blue widgets.
+
 February 25, 2015
 ----------------------
 Changed default orange selected color to be blue (widgets to follow), improved other colors, and added light gnome-shell theme.
