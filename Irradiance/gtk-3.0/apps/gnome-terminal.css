@@ -1,7 +1,7 @@
 /* gnome-terminal */
 TerminalScreen {
-    -TerminalScreen-background-darkness: 0.1;
-    background-color: #f9f9f9;
-    color: #4c4c4c;
+    -TerminalScreen-background-darkness: 0.9;
+    background-color: #2e3436;
+    color: #fff;
 }
 

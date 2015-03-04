@@ -23,10 +23,10 @@ style "terminal_scrollbar" = "scrollbar"
 
 style "terminal_screen"
 {
-	text[NORMAL] = "#4c4c4c"
-	base[NORMAL] = "#f9f9f9"
+	text[NORMAL] = "#fff"
+	base[NORMAL] = "#2e3436"
 
-	TerminalScreen::background-darkness = 0.1
+	TerminalScreen::background-darkness = 0.9
 }
 
 #widget "*TerminalWindow*"                               style "terminal_window"

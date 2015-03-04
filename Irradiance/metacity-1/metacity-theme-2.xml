@@ -2,7 +2,7 @@
 <metacity_theme>
 <info>
 	<name>Irradiance</name>
-	<author>Satyajit Sahoo</author>
+	<author>Brian Sundman, Satyajit Sahoo</author>
 	<copyright>GPL-3.0+</copyright>
 	<date>11 December 2013</date>
 	<description>Irradiance Metacity Theme</description>
@@ -55,12 +55,11 @@
 	<distance name="title_vertical_pad" value="0" />
 	<border name="title_border" left="2" right="2" top="0" bottom="0" />
 	<border name="button_border" left="0" right="0" top="1" bottom="0"  />
+	<distance name="left_titlebar_edge" value="5"/>
+	<distance name="right_titlebar_edge" value="5"/>
 </frame_geometry>
 
-<frame_geometry name="small_unfocused" parent="small">
-	<distance name="left_titlebar_edge" value="0"/>
-	<distance name="right_titlebar_edge" value="0"/>
-</frame_geometry>
+<frame_geometry name="small_unfocused" parent="small"/>
 
 <frame_geometry name="nobuttons" hide_buttons="true" parent="normal" />
 
@@ -90,14 +89,14 @@
 
 <!-- ::: TITLES ::: -->
 <draw_ops name="title_focused">
-	<title x="10"
-               y="(((height - title_height) / 2) `max` 0)"
+	<title x="(0 `max` ((width - title_width) / 2)) + 2"
+               y="(0 `max` ((height - title_height) / 2))"
                color="C_title_focused" />
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title x="10"
-               y="(((height - title_height) / 2) `max` 0)"
+	<title x="(0 `max` ((width - title_width) / 2)) + 2"
+               y="(0 `max` ((height - title_height) / 2))"
                color="C_title_unfocused" />
 </draw_ops>
 
