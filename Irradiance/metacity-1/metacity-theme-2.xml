@@ -248,7 +248,7 @@
 </draw_ops>
 
 <draw_ops name="maximize_unfocused_pressed">
-  <image filename="maximize.png" x="0" y="1" width="object_width" height="object_height"/>
+	<include name="maximize_focused_pressed" />
 </draw_ops>
 
 <!-- unmaximize icon -->
@@ -273,7 +273,7 @@
 </draw_ops>
 
 <draw_ops name="unmaximize_unfocused_pressed">
-  <image filename="unmaximize.png" x="0" y="1" width="object_width" height="object_height"/>
+	<include name="unmaximize_focused_pressed" />
 </draw_ops>
 
 <!-- minimize icon -->
@@ -298,7 +298,7 @@
 </draw_ops>
 
 <draw_ops name="minimize_unfocused_pressed">
-  <image filename="minimize.png" x="0" y="1" width="object_width" height="object_height"/>
+	<include name="minimize_focused_pressed" />
 </draw_ops>
 
 <!-- menu icon -->
